@@ -1,0 +1,7 @@
+
+claw/applications/euler/1d/rp
+
+Riemann solvers for the 1-dimensional Euler equations
+
+rp1eu.f  Roe solver
+

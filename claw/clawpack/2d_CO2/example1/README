@@ -1,0 +1,6 @@
+
+claw/clawpack/2d/example1
+
+Advection at constant velocity with periodic boundary conditions.
+The velocity is specified in setprob.data
+

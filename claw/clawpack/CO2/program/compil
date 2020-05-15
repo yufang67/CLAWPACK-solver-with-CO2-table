@@ -1,0 +1,17 @@
+rm -f a.out *.o *.mod
+
+ifort Def_constants.f90          -g -O0 -c 
+ifort Def_variables.f90          -g -O0 -c 
+ifort deriv_disfonc.f90          -g -O0 -c 
+ifort deriv_expfonc.f90          -g -O0 -c 
+ifort helmholtz_deriv.f90        -g -O0 -c 
+ifort helmholtz_dimless.f90      -g -O0 -c
+ifort Properties.f90             -g -O0 -c
+ifort non_linear_solvers.f90     -g -O0 -c
+ifort grid_functions.f90         -g -O0 -c
+ifort grid_construction_LL.f90         -g -O0 -c
+ifort Grid.f90         -g -O0 -c
+ifort interp_functions.f90         -g -O0 -c
+ifort Interp_table.f90         -g -O0 -c
+ifort test_3D.f90 *.o      -g -O0 -mkl=sequential
+

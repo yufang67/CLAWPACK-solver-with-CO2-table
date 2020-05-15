@@ -1,0 +1,25 @@
+#
+# Plots with grace
+#
+xmgrace -batch b_6eq_p.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_Y.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_a.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_u.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_r.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_M.bfile   -nosafe -hardcopy
+xmgrace -batch b_6eq_e.bfile   -nosafe -hardcopy
+#
+# Creating a .pdf
+#
+convert -density 200x200 HEM_p_test_1.eps   HEM_p_test_1.pdf
+convert -density 200x200 HEM_Y_test_1.eps   HEM_Y_test_1.pdf
+convert -density 200x200 HEM_a_test_1.eps   HEM_a_test_1.pdf
+convert -density 200x200 HEM_u_test_1.eps   HEM_u_test_1.pdf
+convert -density 200x200 HEM_r_test_1.eps   HEM_r_test_1.pdf
+convert -density 200x200 HEM_M_test_1.eps   HEM_M_test_1.pdf
+convert -density 200x200 HEM_e_test_1.eps   HEM_e_test_1.pdf
+# http://www.pvv.org/~stm/research/spanwagner.pdf
+# Remove files 
+#
+rm *.eps
+

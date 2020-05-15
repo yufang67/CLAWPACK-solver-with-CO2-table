@@ -1,0 +1,20 @@
+f77  driver.f \
+qinit.f \
+rpn2.f \
+rpt2.f \
+setprob.f \
+$CLAW/clawpack/2d/lib/claw2ez.f \
+$CLAW/clawpack/2d/lib/bc2.f \
+$CLAW/clawpack/2d/lib/setaux.f \
+$CLAW/clawpack/2d/lib/b4step2.f \
+$CLAW/clawpack/2d/lib/out2.f \
+$CLAW/clawpack/2d/lib/claw2.f \
+$CLAW/clawpack/2d/lib/step2.f \
+$CLAW/clawpack/2d/lib/step2ds.f \
+$CLAW/clawpack/2d/lib/dimsp2.f \
+$CLAW/clawpack/2d/lib/flux2.f \
+$CLAW/clawpack/2d/lib/copyq2.f \
+$CLAW/clawpack/2d/lib/limiter.f \
+$CLAW/clawpack/2d/lib/philim.f \
+$CLAW/clawpack/2d/lib/src2.f \
+-o xclaw

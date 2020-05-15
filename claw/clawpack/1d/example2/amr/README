@@ -1,0 +1,15 @@
+
+claw/clawpack/1d/example2/amr
+
+Acoustics equations with pressure pulse initial conditions,
+solid wall at x=0, outflow at x=1.
+
+The density and bulk modulus are specified in setprob.data
+
+
+The code in this directory illustrates how to use the 2d amrclaw code to
+perform adaptive refinement in 1d.   The routines qinit.f and rpn2.f have
+been adapted from the 1d versions.
+
+Plot the results using plotclaw1.
+

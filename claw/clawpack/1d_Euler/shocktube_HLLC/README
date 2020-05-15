@@ -1,0 +1,12 @@
+claw/applications/euler/1d/shocktube
+
+Euler equations with shock-tube initial data (a Riemann problem)
+The shock-tube data is specified in setprob.data.
+
+
+To plot a comparison of fine and coarse grid solutions,
+first run code in subdirectory qref, then in main directory.
+
+The reference solution (in ./qref) will be plotted on top of the
+final computed coarse grid solution using the 'plotframe1ez' command
+called from 'afterframe.m'.

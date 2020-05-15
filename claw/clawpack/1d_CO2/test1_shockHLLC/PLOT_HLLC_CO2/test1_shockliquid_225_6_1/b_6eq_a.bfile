@@ -1,0 +1,57 @@
+#
+#
+# alpha at t10
+#
+#
+
+READ BLOCK "HLLC.C0002" 
+BLOCK xy "9:7"
+#READ BLOCK "HLLC.C0000" 
+#BLOCK xy "9:7"
+#
+#
+s0 symbol 8
+s0 symbol skip 20
+s0 symbol size 0.8
+s0 symbol color 4
+s0 line   color 4
+s0 line linewidth 1.5
+s0 line linestyle 1
+#
+#s1 line   color 1
+#s1 line linewidth 1
+#s1 line linestyle 1
+#
+#
+legend BOX off
+legend BOX LINEWIDTH 0.85
+legend CHAR SIZE 0.75
+legend loctype view
+legend x1 0.76
+legend y1 0.83
+s0  legend "225K 6vs1 - t\s output \N = 0.2 ms "
+#s1  legend "Initial conditions"
+#
+#set the thickness of the x and y axis
+xaxis bar linewidth 2.0
+yaxis bar linewidth 2.0
+xaxis label "z  [m]"
+xaxis label char size 1.2
+yaxis label "Vapor Volume Fraction, \f{Symbol}a\f{}\s v \N    [-]"
+yaxis label char size 1.2
+xaxis  tick major 0.2
+xaxis  tick minor ticks 1
+xaxis  tick default 6
+yaxis  tick major 0.2
+#
+world xmin  0                        
+world xmax  1 
+#world ymin  0
+#world ymax  0.12
+#
+#
+PAGE SIZE 640, 512
+PRINT TO "HEM_a_test_1.eps"
+DEVICE "EPS" OP "level2"
+DEVICE "EPS" DPI 1500 
+PRINT

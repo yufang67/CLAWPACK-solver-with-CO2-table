@@ -1,0 +1,13 @@
+
+6/18/05
+
+flag2refine.f   moved zlower to next line -- too long
+
+tick.f  modified 100 format to print out similar form to clawpack
+
+advanc.f
+   set cflmax = 0 before looping over grids (before this was initialized
+      only in amr2ez.f and never used).
+tick.f
+   print out cflmax
+

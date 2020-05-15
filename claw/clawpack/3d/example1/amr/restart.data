@@ -1,0 +1,7 @@
+F     Restart from old fort.qXXXX or fort.qXXXX.hdf file. (T/F)
+3     Frame number to restart from, i.e. specify value of XXXX.
+
+ *** NOTE THAT RESTART SHOULD ALWAYS BE FALSE IN AMRCLAW ***
+THIS FILE IS PROVIDED ONLY FOR COMPATIBILITY WITH CLAWPACK'S qinit.f
+SO THAT CLAWPACK HAS A RESTART CAPABILITY.  AMRCLAW CAN BE RESTARTED
+USING A fort.checkXXXX FILE.

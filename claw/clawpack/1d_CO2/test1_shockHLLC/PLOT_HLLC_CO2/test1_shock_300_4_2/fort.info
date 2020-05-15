@@ -1,0 +1,45 @@
+tend =     0.3915D+03
+info =    0
+smallest dt =     0.2171D-05
+largest dt =     0.1000D-03
+last dt =     0.2206D-05
+largest cfl =     0.9356D+00
+last cfl =     0.5010D+00
+steps taken = 136
+
+tend =     0.3915D+03
+info =    0
+smallest dt =     0.2206D-05
+largest dt =     0.2207D-05
+last dt =     0.2206D-05
+largest cfl =     0.9004D+00
+last cfl =     0.8804D+00
+steps taken = 136
+
+tend =     0.3915D+03
+info =    0
+smallest dt =     0.2206D-05
+largest dt =     0.2207D-05
+last dt =     0.2206D-05
+largest cfl =     0.9004D+00
+last cfl =     0.8795D+00
+steps taken = 136
+
+tend =     0.3915D+03
+info =    0
+smallest dt =     0.2206D-05
+largest dt =     0.2207D-05
+last dt =     0.2206D-05
+largest cfl =     0.9004D+00
+last cfl =     0.8797D+00
+steps taken = 136
+
+tend =     0.4265D+03
+info =    0
+smallest dt =     0.2194D-05
+largest dt =     0.2207D-05
+last dt =     0.2195D-05
+largest cfl =     0.9030D+00
+last cfl =     0.1817D+00
+steps taken = 137
+

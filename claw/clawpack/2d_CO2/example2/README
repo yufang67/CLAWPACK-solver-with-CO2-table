@@ -1,0 +1,7 @@
+
+claw/clawpack/2d/example2
+
+This directory contains an example driver routine for solving the 2D
+scalar equation $u_t + (u^2)_x + (u^4)_y = 0$ as an illustration of how the
+Riemann solvers rpn2 and rpt2 can be set for a nonlinear problem.
+

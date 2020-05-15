@@ -1,0 +1,18 @@
+c =========================================================================
+c
+c  Copyright 1995-2006  R. J. LeVeque and others
+c
+c  This software is made available for research and instructional use only.
+c  You may copy and use this software without charge for these non-commercial
+c  purposes, provided that the copyright notice and associated text is
+c  reproduced on all copies.  For all other uses (including distribution of
+c  modified versions), please contact the author at the address given below.
+c  
+c  *** This software is made available "as is" without any assurance that it
+c  *** will work for your purposes.  The software may in fact have defects, so
+c  *** use the software at your own risk.
+c
+c  --------------------------------------
+c
+c    CLAWPACK Version 4.3, April, 2006
+c    http://www.amath.washington.edu/~claw

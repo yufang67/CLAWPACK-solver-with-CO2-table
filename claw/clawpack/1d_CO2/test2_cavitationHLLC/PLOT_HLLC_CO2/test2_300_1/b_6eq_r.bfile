@@ -1,0 +1,77 @@
+#
+#
+# alpha at t10
+#
+#
+#READ BLOCK "HLLC.C0000" 
+#BLOCK xy "9:2"
+READ BLOCK "HLLC.C0001"
+BLOCK xy "9:2"
+READ BLOCK "HLLC.C0002"
+BLOCK xy "9:2"
+READ BLOCK "HLLC.C0003"
+BLOCK xy "9:2"
+READ BLOCK "HLLC.C0004"
+BLOCK xy "9:2"
+#
+#
+s0 line   color 1
+s0 line linewidth 1
+s0 line linestyle 1
+#
+s1 symbol 8
+s1 symbol skip 20
+s1 symbol size 0.8
+s1 symbol color 4
+s1 line   color 4
+s1 line linewidth 1.5
+s1 line linestyle 1
+#
+s2 line   color 5
+s2 line linewidth 1.5
+s2 line linestyle 2
+#
+s3 line   color 6
+s3 line linewidth 1.5
+s3 line linestyle 3
+#
+s4 line   color 7
+s4 line linewidth 1.5
+s4 line linestyle 4
+#
+#
+legend BOX off
+legend BOX LINEWIDTH 0.85
+legend CHAR SIZE 0.75
+legend loctype view
+legend x1 0.745
+legend y1 0.82
+s0  legend "Initial conditions"
+s1  legend "HLLC - t\s output \N  "
+s2  legend "HLLC - t\s output \N "
+s3  legend "HLLC - t\s output \N  "
+s4  legend "HLLC - t\s output \N  "
+#
+#set the thickness of the x and y axis
+xaxis bar linewidth 2.0
+yaxis bar linewidth 2.0
+xaxis label "z  [m]"
+xaxis label char size 1.2
+yaxis label "Mixture density, \f{Symbol}r\f{}\s \N   [kg/m\S3\N]"
+yaxis label char size 1.2
+xaxis  tick major 0.2
+xaxis  tick minor ticks 1
+xaxis  tick default 6
+yaxis  tick major 1
+#
+#world xmin  0                        
+#world xmax  1 
+#world ymin  111
+#world ymax  113
+#
+#
+PAGE SIZE 640, 512
+PRINT TO "HEM_r_test_1.eps"
+DEVICE "EPS" OP "level2"
+DEVICE "EPS" DPI 1500 
+PRINT
