@@ -1,12 +1,12 @@
-# CLAWPACK-solver-with-CO2-table
-Couple CLAWPACK solver with CO2 look-up table
+# CLAWPACK solver coupled with CO2 look-up table
+This is the CLAWPACK solver. Here we did not use the latest version of CLAWPACK (written by fortran 97), but it is compatible with the CO2 table written in Fortran90.
 
-[200~This is the CLAWPACK solver. Here we did not use the latest version of CLAWPACK (written by fortran 97), but it is compatible with the CO2 table written in Fortran90.
+The original solver is in claw/clawpack. The CO2 table is coupled with HLLC solver in each cases (in rp_HLLC). In this version of CO2 table, we added some variables which are used for debugging and boundary condition.
 
-Basically, the main codes are in claw/clawpack/1d_CO2 and claw/clawpack/2d_CO2. The CO2 table is in claw/clawpack/CO2. In this version of CO2 table, we added some variables which are used for debugging and boundary condition.
-
+---
 1. set path in your computer for CLAWPACK solver.
 2. compile CO2 table
-3. compile solver
+3. compile original solver
+4. compile cases
 
-There are some test cases in 1d and 2d that you can find in the solver fichers. 
+Two test cases in 1d and 2d are presented which you can play with. 
